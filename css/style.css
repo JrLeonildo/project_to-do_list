@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  /*cada 1rem vale-rá 10px*/
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #eaeaea;
+}
+.main{
+  margin: auto;
+  width: 50vw;
+  height: 95vh;
+  background-color: #fff;
+}
+header{
+  background-color: #8a2be2;
+}
+header h1{
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+form{
+  display: flex;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  margin: 20px auto;
+  width: 45vw;
+  box-shadow: 2px 2px 2px #00000081;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+form div label{
+  text-align: start;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+form #inputTask{
+  width: 40vw;
+  font-size: 1.7rem;
+}
+form div button{
+  margin: 0 25px;
+  font-size: 3rem;
+  padding: 10% 23%;
+  background-color: #8a2be2;
+  color: #fff;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.displayTasks{
+  width: 45vw;
+  margin: 0 auto;
+  border: solid 1px black;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 2px #00000072;
+  border-radius: 10px;
+}
+.displayTasks ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.displayTasks p{
+  font-size: 1.5rem;
+}
+.displayTasks button {
+  border: none;
+  background: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+footer{
+  display: flex;
+  background-color: #8a2be2;
+  width: 50vw;
+  height: 5vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+footer div p{
+  font-size: 2rem;
+} 
