@@ -15,7 +15,7 @@ function addTask(task) {
   createSpan.appendChild(specifyingIcon);
   createButtonDelete.appendChild(createSpan);
   createLi.appendChild(createButtonDelete);
-  if(taskArray.length>=10) {
+  if(taskArray.length>=13) {
     alert("Limite de tarefas atingido");
   }else {
     ulTask.appendChild(createLi);
@@ -34,7 +34,7 @@ function deleteTask(ul, li){
 const start = () => {
   event.preventDefault();
   if(inputTask.value=="") {
-    alert("Você não descreveu sua compra");
+    alert("Você não descreveu sua tarefa");
   }else{
     addTask(inputTask.value);
   }

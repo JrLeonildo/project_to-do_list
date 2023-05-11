@@ -10,7 +10,7 @@
   <title>Task List</title>
 </head>
 <body>
-  <div class="main">
+  <div class="body">
     <header>
       <div>
         <h1>
@@ -18,41 +18,43 @@
         </h1>
       </div>
     </header>
-    <form>
-      <div>
+    <div class="main">
+      <form>
         <div>
-          <label for="inputTask">
-            tarefa
-          </label>
+          <div>
+            <label for="inputTask">
+              tarefa
+            </label>
+          </div>
+    
+          <div>
+            <input 
+              type="text" 
+              name="task" 
+              id="inputTask"
+            >
+          </div>
         </div>
-  
         <div>
-          <input 
-            type="text" 
-            name="task" 
-            id="inputTask"
-          >
+          <button class="buttonAddTask">
+            +
+          </button>
         </div>
+      </form>
+    
+      <div class="displayTasks">
+        <ul class="ulTasks">
+          
+        </ul>
       </div>
-      <div>
-        <button class="buttonAddTask">
-          +
-        </button>
-      </div>
-    </form>
-  
-    <div class="displayTasks">
-      <ul class="ulTasks">
-        
-      </ul>
     </div>
+    <footer>
+      <div>
+        <p>
+          “Mesmo que algo pareça difícil, nunca desista antes de tentar”
+        </p>
+      </div>
+    </footer>
   </div>
-  <footer>
-    <div>
-      <p>
-        “Mesmo que algo pareça difícil, nunca desista antes de tentar”
-      </p>
-    </div>
-  </footer>
 </body>
 </html>
